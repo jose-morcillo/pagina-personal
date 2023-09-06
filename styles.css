@@ -1,0 +1,172 @@
+/* Estilos generales */
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, #3b3939, #1c1b1b);
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    padding: 40px 0;
+    font-size: 36px;
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+    background: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #33ccff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff66cc;
+}
+
+main {
+    padding: 40px;
+}
+
+section {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 24px;
+    color: #33ccff;
+}
+
+p {
+    font-size: 16px;
+    color: #ccc; /* Cambiar el color del texto a uno más suave */
+}
+
+/* Estilos para la imagen ovalada */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid #ff66cc;
+    margin: 20px auto;
+    display: block;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px 0;
+    font-size: 14px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para las tarjetas de proyecto */
+.project-slider {
+    display: flex;
+    overflow-x: scroll;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.project-card {
+    flex: 0 0 auto;
+    width: 300px;
+    margin-right: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    scroll-snap-align: start;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.project-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.project-card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #33ccff;
+}
+
+.project-link {
+    display: block;
+    color: #33ccff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.project-link:hover {
+    color: #ff66cc;
+}
+
+/* Estilos para los botones de desplazamiento */
+.prev-button,
+.next-button {
+    background: #33ccff;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.prev-button {
+    left: 0;
+}
+
+.next-button {
+    right: 0;
+}
+
+/* Estilos generales */
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('inteligencia-artificial.jpg'); /* Ruta de tu imagen de fondo */
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
